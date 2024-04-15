@@ -73,10 +73,10 @@ static ERL_NIF_TERM nif_tb_poll_event(ErlNifEnv *env, int argc, const ERL_NIF_TE
 static ErlNifFunc nif_funcs[] = {
     {"tb_init", 0, nif_tb_init},
     {"tb_shutdown", 0, nif_tb_shutdown},
-    /* {"tb_width", 0, nif_tb_width}, */
-    /* {"tb_height", 0, nif_tb_height}, */
-    /* {"tb_clear", 0, nif_tb_clear}, */
-    /* {"tb_present", 0, nif_tb_present}, */
+    {"tb_width", 0, nif_tb_width},
+    {"tb_height", 0, nif_tb_height},
+    {"tb_clear", 0, nif_tb_clear},
+    {"tb_present", 0, nif_tb_present},
     /* {"tb_set_cursor", 2, nif_tb_set_cursor}, */
     /* {"tb_hide_cursor", 0, nif_tb_hide_cursor}, */
     /* {"tb_set_cell", 5, nif_tb_set_cell}, */

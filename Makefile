@@ -6,14 +6,14 @@
 
 CC=gcc
 CFLAGS=-g -std=gnu11 -Wall -I/usr/lib/erlang/erts-14.2.3/include
-LDLIBS=`pkg-config --cflags --libs glib-2.0`
+LDLIBS=
+#`pkg-config --cflags --libs glib-2.0`
 
 # CC command:
 CCC=$(CC) $(CFLAGS) $(LDLIBS)
 
 # Edit these:
 PROGNAME=termbox2
-INSTALLDIR=~/.local/bin
 
 # Do not edit these:
 SRC=src

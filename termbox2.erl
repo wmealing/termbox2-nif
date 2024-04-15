@@ -30,7 +30,7 @@
 -on_load(init/0).
 
 init() ->
-    ok = erlang:load_nif("./obj/termbox2_nif", 0).
+    ok = erlang:load_nif("./termbox2_nif", 0).
 
 tb_init() ->
     erlang:nif_error(nif_library_not_loaded).

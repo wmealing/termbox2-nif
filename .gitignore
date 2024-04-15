@@ -3,6 +3,7 @@
 *.log
 tmp/
 
+.ccls-cache/
 *.beam
 *.so
 *.dump

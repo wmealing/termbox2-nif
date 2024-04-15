@@ -16,4 +16,9 @@ build:
 bear:
 	bear -- $(CCC) -o $(PROGNAME)_nif.so -fpic -shared termbox2_nif.c
 
+demo: build
+	erlc termbox2_test.erl termbox2.erl
+	erl -pa . -noshell -s termbox2_test start -s init stop
+
+
 # end

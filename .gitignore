@@ -5,3 +5,4 @@ tmp/
 
 *.beam
 *.so
+*.dump

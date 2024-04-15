@@ -1,10 +1,10 @@
--module('termbox2-ffi').
+-module('termbox2').
 -export([tb_init/0, tb_shutdown/0, tb_poll_event/0]).
 -nifs([tb_init/0, tb_shutdown/0, tb_poll_event/0]).
 -on_load(init/0).
 
 init() ->
-    ok = erlang:load_nif("./tbox_nif", 0).
+    ok = erlang:load_nif("./obj/termbox2_nif", 0).
 
 tb_init() ->
     erlang:nif_error(nif_library_not_loaded).

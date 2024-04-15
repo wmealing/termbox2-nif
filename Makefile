@@ -12,7 +12,7 @@ LDLIBS=`pkg-config --cflags --libs glib-2.0`
 CCC=$(CC) $(CFLAGS) $(LDLIBS)
 
 # Edit these:
-PROGNAME=tbox
+PROGNAME=termbox2
 INSTALLDIR=~/.local/bin
 
 # Do not edit these:

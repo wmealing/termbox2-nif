@@ -79,12 +79,8 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 * [![Erlang][Erlang]][Erlang-url]
 * [![Termbox][Termbox2]][Termbox2-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -93,26 +89,24 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Prerequisites
 
 You will need to have a
-* modern erlang
+* modern erlang  (Version 22+)
 * make 
 * c compiler.
 
 ### Installation
 
-TBD: SHould we get this from hex.pm show how to use it as a dep ?
+TBD: Should we get this from hex.pm show how to use it as a dep ?
 
 
 Manually:
 
 1. Clone this repo.
-2. Clone the repo
    ```sh
    git clone https://github.com/wmealing/termbox2-nif.git
    ```
-3. Build the library 
+2. Build the library 
    ```sh
 	make
-   ```
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

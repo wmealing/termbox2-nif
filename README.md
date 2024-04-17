@@ -78,7 +78,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 * [![Erlang][Erlang]][Erlang-url]
-* [![Laravel][Laravel.com]][Laravel-url]
+* [![Termbox][Termbox2]][Termbox2-url]
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 * [![JQuery][JQuery.com]][JQuery-url]
 
@@ -203,7 +203,8 @@ Project Link: [https://github.com/wmealing/termbox2-nif](https://github.com/wmea
 [product-screenshot]: images/screenshot.png
 [Erlang]: https://img.shields.io/badge/erlang-000000?style=for-the-badge&logo=erlang&logoColor=white
 [Erlang-url]: https://www.erlang.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[Termbox2]: https://img.shields.io/badge/termbox2-000000?style=for-the-badge&logo=terminal&logoColor=61DAFB
+[Termbox2-url]: https://github.com/termbox/termbox2
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/

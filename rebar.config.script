@@ -47,7 +47,7 @@ CFlags =
         {"CFLAGS", CFlags}
     ] ++ LdEnv},
     {port_specs, [
-        {"priv/termbawx2_nif.so", NifSources}
+        {"priv/termbox2_nif.so", NifSources}
     ]},
 
     {plugins, [pc]},

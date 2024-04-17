@@ -1,5 +1,5 @@
 #define TB_IMPL
-#include <termbox2.h>
+#include "termbox2/termbox2.h"
 #include <erl_nif.h>
 
 static ERL_NIF_TERM nif_tb_init(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])
@@ -49,7 +49,7 @@ static ERL_NIF_TERM nif_tb_set_cell(ErlNifEnv *env, int argc, const ERL_NIF_TERM
 {
   int x, y;
   uint32_t ch;
-  uintattr_t fg, bg;
+  unsigned long fg, bg;
   if (!enif_get_int(env, argv[0], &x)) return enif_make_badarg(env);
   if (!enif_get_int(env, argv[1], &y)) return enif_make_badarg(env);
   if (!enif_get_uint(env, argv[2], &ch)) return enif_make_badarg(env);
@@ -87,7 +87,7 @@ static ERL_NIF_TERM nif_tb_poll_event(ErlNifEnv *env, int argc, const ERL_NIF_TE
 static ERL_NIF_TERM nif_tb_print(ErlNifEnv *env, int argc, const ERL_NIF_TERM argv[])
 {
   int x, y;
-  uintattr_t fg, bg;
+  unsigned long fg, bg;
   ErlNifBinary binary;
   if (!enif_get_int(env, argv[0], &x)) return enif_make_badarg(env);
   if (!enif_get_int(env, argv[1], &y)) return enif_make_badarg(env);

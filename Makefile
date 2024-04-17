@@ -22,6 +22,7 @@ test: compile
 
 clean: $(REBAR3)
 	$(REBAR3) clean
+	rm -rf _build
 
 distclean:
 	rm $(REBAR3)

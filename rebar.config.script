@@ -2,22 +2,22 @@
 NifSharedSources = ["c_src/termbox2_nif.c"].
 NifStaticSources = NifSharedSources.
 CFlagsDefault = "$CFLAGS -Os ".
-DrvLdFlagsDefault = "-shared -lsqlite3".
+DrvLdFlagsDefault = "-shared -ltermbox2".
 
 DrvLdFlags =
-    case os:getenv("TERMBAWX_CFLAGS") of
+    case os:getenv("TERMBOX2_CFLAGS") of
         NotDefined when NotDefined == false; NotDefined == [] -> DrvLdFlagsDefault;
         DrvLdFlagsOverride -> DrvLdFlagsOverride
     end.
 
 {NifSources, LdEnv, CFlagsExt} =
-    case os:getenv("TERMBAWX_USE_SYSTEM") of
+    case os:getenv("TERMBOX2_USE_SYSTEM") of
         NotDefined when NotDefined == false; NotDefined == [] -> {NifStaticSources, [], " -Ic_src/termbox2"};
         _Defined -> {NifSharedSources, [{"DRV_LDFLAGS", DrvLdFlags}], []}
     end.
 
 CFlags =
-    case os:getenv("TERMBAWX_CFLAGS") of
+    case os:getenv("TERMBOX2_CFLAGS") of
         NotDefined when NotDefined == false; NotDefined == [] -> CFlagsDefault ++ CFlagsExt;
         CFlagsOverride -> CFlagsOverride
     end.

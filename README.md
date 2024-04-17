@@ -19,7 +19,7 @@
 <h3 align="center">TERMBOX2-NIF</h3>
 
   <p align="center">
-    project_description
+	An erlang wrapper for the termbox2 library. 
     <br />
     <a href="https://github.com/wmealing/termbox2-nif"><strong>Explore the docs »</strong></a>
     <br />

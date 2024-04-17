@@ -163,8 +163,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Wade Mealing  - wmealing@gmail.com
-Garlicx01 - https://github.com/garlic0x1
+- Wade Mealing  - wmealing@gmail.com
+
+- Garlicx01 - https://github.com/garlic0x1
 
 Project Link: [https://github.com/wmealing/termbox2-nif](https://github.com/wmealing/termbox2-nif)
 

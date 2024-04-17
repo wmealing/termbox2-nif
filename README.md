@@ -6,7 +6,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -128,7 +127,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [x] Erlang NIF created.
-- [ ] Gleam NIF created.
+- [ ] Gleam wrapper created.
 
 See the [open issues](https://github.com/wmealing/termbox2-nif/issues) for a full list of proposed features (and known issues).
 

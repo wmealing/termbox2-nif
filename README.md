@@ -67,8 +67,11 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+Ever wanted to write a TUI library based on termbox2 in beam based languages ?
+Tired of writing web apps that may make your app popular and usable by many while likely wasting near gigabytes of memory ?
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `wmealing`, `termbox2-nif`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `termbox2-nif`, `project_description`
+You could write a TUI, using this library to avoid the pitfalls.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

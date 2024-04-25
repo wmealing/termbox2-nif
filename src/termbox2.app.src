@@ -1,0 +1,15 @@
+{application, termbox2,
+ [{description, "Underlying NIF to use the termbox2 C API"},
+  {vsn, "0.1.1"},
+  {registered, []},
+  {mod, {termbox2_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache-2.0"]},
+  {links, [{"GitHub", "https://github.com/wmealing/termbox2-nif"}]}
+ ]}.

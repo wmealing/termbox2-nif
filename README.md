@@ -131,6 +131,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 - [x] Erlang NIF created.
 - [ ] Gleam wrapper created.
+- [ ] Elixir wrapper 
 
 See the [open issues](https://github.com/wmealing/termbox2-nif/issues) for a full list of proposed features (and known issues).
 
@@ -167,7 +168,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 - Wade Mealing  - wmealing@gmail.com
 
-- Garlicx01 - https://github.com/garlic0x1
+- Garlic0x1 - https://github.com/garlic0x1
 
 Project Link: [https://github.com/wmealing/termbox2-nif](https://github.com/wmealing/termbox2-nif)
 
@@ -177,7 +178,7 @@ Project Link: [https://github.com/wmealing/termbox2-nif](https://github.com/wmea
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Garlicx01 - for initial c port
+Used with permission from the garlic0x1 original author. Published to hex.pm with permission.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

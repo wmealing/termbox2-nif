@@ -116,8 +116,8 @@ static ErlNifFunc nif_funcs[] = {
     {"tb_set_cursor", 2, nif_tb_set_cursor},
     {"tb_hide_cursor", 0, nif_tb_hide_cursor},
     {"tb_set_cell", 5, nif_tb_set_cell},
-    {"tb_peek_event", 1, nif_tb_peek_event},
-    {"tb_poll_event", 0, nif_tb_poll_event},
+    {"tb_peek_event", 1, nif_tb_peek_event, ERL_NIF_DIRTY_JOB_CPU_BOUND},
+    {"tb_poll_event", 0, nif_tb_poll_event, ERL_NIF_DIRTY_JOB_CPU_BOUND},
     {"tb_print", 5, nif_tb_print}
 };
 

@@ -1,38 +1,28 @@
 <a name="readme-top"></a>
 
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
+[![Contributors](https://img.shields.io/github/contributors/wmealing/termbox2-nif.svg?style=for-the-badge)](https://github.com/wmealing/termbox2-nif/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/wmealing/termbox2-nif.svg?style=for-the-badge)](https://github.com/wmealing/termbox2-nif/network/members)
+[![Issues](https://img.shields.io/github/issues/wmealing/termbox2-nif.svg?style=for-the-badge)](https://github.com/wmealing/termbox2-nif/issues)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/wmealing/termbox2-nif/blob/master/LICENSE)
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/wmealing/termbox2-nif">
-    <img src="images/logo.svg" alt="Logo" width="80" height="80">
+    <img src="https://github.com/wmealing/termbox2-nif/raw/master/images/logo.svg" alt="Logo" width="80" height="80">
   </a>
-
 <h3 align="center">TERMBOX2-NIF</h3>
-
   <p align="center">
-	An erlang wrapper for the termbox2 library. 
+	An erlang wrapper for the termbox2 library.
     <br />
     <a href="https://github.com/wmealing/termbox2-nif"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/wmealing/termbox2-nif">View Demo</a>
-    ·
-    <a href="https://github.com/wmealing/termbox2-nif/issues/new?labels=bug">Report Bug</a>
-    ·
+    <a href="https://github.com/wmealing/termbox2-nif">View Demo</a>·
+    <a href="https://github.com/wmealing/termbox2-nif/issues/new?labels=bug">Report Bug</a>·
     <a href="https://github.com/wmealing/termbox2-nif/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -157,7 +147,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,33 +176,8 @@ Used with permission from the garlic0x1 original author. Published to hex.pm wit
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/wmealing/termbox2-nif.svg?style=for-the-badge
-[contributors-url]: https://github.com/wmealing/termbox2-nif/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/wmealing/termbox2-nif.svg?style=for-the-badge
-[forks-url]: https://github.com/wmealing/termbox2-nif/network/members
-[stars-shield]: https://img.shields.io/github/stars/wmealing/termbox2-nif.svg?style=for-the-badge
-[stars-url]: https://github.com/wmealing/termbox2-nif/stargazers
-[issues-shield]: https://img.shields.io/github/issues/wmealing/termbox2-nif.svg?style=for-the-badge
-[issues-url]: https://github.com/wmealing/termbox2-nif/issues
-[license-shield]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
-[license-url]: https://github.com/wmealing/termbox2-nif/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
 [Erlang]: https://img.shields.io/badge/erlang-000000?style=for-the-badge&logo=erlang&logoColor=white
 [Erlang-url]: https://www.erlang.org/
 [Termbox2]: https://img.shields.io/badge/termbox2-000000?style=for-the-badge&logo=codewars&logoColor=61DAFB
 [Termbox2-url]: https://github.com/termbox/termbox2
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
